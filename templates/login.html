@@ -1,0 +1,15 @@
+<html>
+<head>
+ <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+</head>
+<body>
+<form class ="frm" action="http://localhost:5000/login" method="post">
+    <table class="table">
+        <tr><td>NAME</td><td><input type="text" name="uname"></td></tr>
+        <tr><td>PASSWORD</td><td><input type="password" name="pass"></td></tr>
+        <tr><td><input type="submit"></td></tr>
+    </table>
+
+</form>
+</body>
+</html>
